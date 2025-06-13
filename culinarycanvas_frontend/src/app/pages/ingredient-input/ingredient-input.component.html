@@ -1,0 +1,35 @@
+<div class="ingredient-input-container">
+  <h1>CulinaryCanvas</h1>
+  <p class="subtitle">List your available ingredients and let our AI chef create a recipe!</p>
+
+  <div class="ingredients-section" [class.highlight]="showHighlight()">
+    <label for="ingredientField">Add Ingredient</label>
+    <div class="ingredient-input-wrap">
+      <input
+        id="ingredientField"
+        type="text"
+        [(ngModel)]="ingredientText"
+        (keydown)="handleKeyDown($event)"
+        (focus)="focused=true"
+        (blur)="focused=false"
+        placeholder="e.g. tomatoes, chicken, basil…"
+      />
+      <button class="add-btn" type="button" (click)="addIngredient()" [disabled]="!ingredientText.trim()">Add</button>
+    </div>
+    <div class="ingredient-chips" *ngIf="ingredients.length > 0">
+      <span class="chip" *ngFor="let ing of ingredients; let i = index">
+        {{ ing }}
+        <button class="chip-delete" (click)="removeIngredient(i)" aria-label="Remove ingredient">&times;</button>
+      </span>
+    </div>
+    <p class="field-hint" *ngIf="showHighlight()">Please enter at least one ingredient.</p>
+  </div>
+
+  <button
+    class="next-btn"
+    [disabled]="ingredients.length < 1"
+    (click)="next()"
+  >
+    Generate Recipe
+  </button>
+</div>

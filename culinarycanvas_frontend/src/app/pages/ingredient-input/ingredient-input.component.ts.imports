@@ -1,0 +1,2 @@
+import { FormsModule } from '@angular/forms';
+// This import is needed in the @Component imports so template [(ngModel)] works.

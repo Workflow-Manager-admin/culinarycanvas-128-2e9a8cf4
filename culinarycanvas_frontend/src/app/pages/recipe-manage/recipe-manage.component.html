@@ -1,0 +1,16 @@
+<div class="recipe-manage-container">
+  <h2>Manage Your Recipe</h2>
+
+  <div *ngIf="hasRecipe; else noRecipeBlock">
+    <pre class="recipe-block">{{ recipe }}</pre>
+    <div class="action-row">
+      <button class="delete-btn" (click)="deleteRecipe()">Delete Recipe</button>
+      <button class="input-btn" (click)="goToInput()">Back to Ingredient Input</button>
+    </div>
+  </div>
+
+  <ng-template #noRecipeBlock>
+    <p>No recipe is currently stored. Please add ingredients to generate a recipe!</p>
+    <button class="input-btn" (click)="goToInput()">Input Ingredients</button>
+  </ng-template>
+</div>

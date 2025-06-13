@@ -1,0 +1,70 @@
+:host {
+  --primary: #4CAF50;
+  --secondary: #fff;
+  --accent: #FF9800;
+  --danger: #e33219;
+  --bg: #f8fbf6;
+  display: block;
+}
+.recipe-manage-container {
+  max-width: 600px;
+  background: var(--secondary);
+  margin: 3.0rem auto 1.5rem;
+  padding: 2.1rem 2.3rem 2.5rem 2.2rem;
+  border-radius: 25px;
+  box-shadow: 0 2px 16px 0 rgba(76,175,80,0.06);
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  text-align: center;
+}
+h2 {
+  color: var(--primary);
+  margin-bottom: 1.4rem;
+  font-weight: 600;
+}
+
+.recipe-block {
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 1.13rem 1.2rem;
+  color: #443a20;
+  font-size: 1.06rem;
+  white-space: pre-wrap;
+  font-family: "Inter", "Roboto Mono", monospace;
+  box-shadow: 0 2px 11px #eefaee;
+  margin-bottom: 1.7rem;
+}
+.action-row {
+  display: flex;
+  gap: 1.1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.delete-btn {
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 1.6rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  box-shadow: 0 2px 7px #fbe2e0;
+}
+.input-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 1.6rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  box-shadow: 0 2px 8px #ffe8cc;
+}
+
+.delete-btn:hover,
+.input-btn:hover {
+  filter: brightness(1.07);
+}

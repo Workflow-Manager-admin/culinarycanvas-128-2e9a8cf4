@@ -1,0 +1,27 @@
+<div class="ai-recipe-container">
+  <button class="back-btn" (click)="goBack()" aria-label="Back to ingredient input">&larr;</button>
+
+  <h2><span class="title-accent">Culinary</span>Canvas Recipe AI</h2>
+
+  <div class="ingredient-chip-list">
+    <span class="chip" *ngFor="let ing of ingredients">{{ ing }}</span>
+  </div>
+
+  <div class="main-section">
+    <div *ngIf="loading" class="loading-zone">
+      <svg class="loader" viewBox="0 0 24 24"><circle class="loader-path" cx="12" cy="12" r="10" /></svg>
+      <p>Cooking up a creative recipe with AI...</p>
+    </div>
+
+    <div *ngIf="error" class="error-zone">
+      <strong>Oops:</strong> {{ error }}
+      <button (click)="generateRecipe()">Try Again</button>
+    </div>
+
+    <pre *ngIf="!loading && recipe" class="recipe-block">{{ recipe }}</pre>
+  </div>
+
+  <div class="action-row" *ngIf="!loading && recipe">
+    <button class="to-manage-btn" (click)="goToManage()">Manage Recipe</button>
+  </div>
+</div>

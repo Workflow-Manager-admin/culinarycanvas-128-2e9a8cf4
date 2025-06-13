@@ -1,0 +1,164 @@
+
+> angular@0.0.0 start
+> ng serve --host 0.0.0.0  --no-hmr --disable-host-check --port 3000
+
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+The "disableHostCheck" option will not be used because it is not supported by the "@angular-devkit/build-angular:application" builder.
+❯ Building...
+✔ Building...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  22.59 kB | 
+styles.css           | styles           |  95 bytes | 
+
+                     | Initial total    | 112.88 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-6XEG6CM6.mjs   | -                |  23.02 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [2.602 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.493 seconds]
+
+✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
+
+    src/app/app.routes.ts:9:36:
+      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
+        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/ingredient-input/ingredient-input.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:11:32:
+      11 │ ...=> import("./pages/ingredient-input/ingredient-input.component"...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
+
+    src/app/app.routes.ts:14:36:
+      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/ai-recipe/ai-recipe.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:16:32:
+      16 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
+
+    src/app/app.routes.ts:19:36:
+      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/recipe-manage/recipe-manage.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:21:32:
+      21 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
+
+    src/app/app.routes.ts:9:36:
+      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
+        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
+
+    src/app/app.routes.ts:14:36:
+      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
+
+    src/app/app.routes.ts:19:36:
+      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.099 seconds]
+
+✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
+
+    src/app/app.routes.ts:9:36:
+      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
+        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/ingredient-input/ingredient-input.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:11:32:
+      11 │ ...=> import("./pages/ingredient-input/ingredient-input.component"...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
+
+    src/app/app.routes.ts:14:36:
+      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/ai-recipe/ai-recipe.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:16:32:
+      16 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
+
+    src/app/app.routes.ts:19:36:
+      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/recipe-manage/recipe-manage.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:21:32:
+      21 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
+
+    src/app/app.routes.ts:9:36:
+      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
+        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
+
+    src/app/app.routes.ts:14:36:
+      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
+
+    src/app/app.routes.ts:19:36:
+      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

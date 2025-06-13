@@ -1,0 +1,136 @@
+:host {
+  --primary: #4CAF50;
+  --secondary: #fff;
+  --accent: #FF9800;
+  --bg: #f5f8f1;
+  --shadow: 0 4px 18px rgba(76,175,80,0.08);
+
+  display: block;
+}
+
+.ingredient-input-container {
+  background: var(--secondary);
+  max-width: 430px;
+  margin: 3rem auto 2rem;
+  padding: 2.3rem 2.1rem 2rem;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.3rem;
+  color: var(--primary);
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 1.6rem;
+}
+
+.ingredients-section {
+  margin: 0.2rem auto 1.6rem;
+  padding: 1.1rem 1rem 1.2rem;
+  border-radius: 14px;
+  background: var(--bg);
+  border: 1.2px solid #e8efea;
+  transition: border-color 0.2s;
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+
+.ingredients-section.highlight {
+  border-color: var(--accent);
+  background: #fffdf7;
+}
+
+.ingredient-input-wrap {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type="text"] {
+  flex: 1 1;
+  padding: 0.63rem 0.75rem;
+  border-radius: 6px;
+  border: 1.5px solid #c9e5cd;
+  font-size: 1.1rem;
+  outline: none;
+  background: #fcfefc;
+  color: #334;
+  transition: border-color 0.16s;
+}
+
+input[type="text"]:focus {
+  border-color: var(--primary);
+  background: #fff;
+}
+
+.add-btn {
+  background: var(--primary);
+  border: none;
+  color: var(--secondary);
+  padding: 0.5rem 1rem;
+  font-size: 1.01rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.add-btn:disabled {
+  background: #bfd8c3;
+  cursor: default;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background: #eafbee;
+  color: #206e34;
+  border-radius: 14px;
+  padding: 0.25rem 0.75rem 0.25rem 0.6rem;
+  margin: 0.24rem;
+  font-size: 1rem;
+  font-weight: 450;
+}
+
+.chip-delete {
+  border: none;
+  background: none;
+  color: #d22;
+  font-size: 1.14rem;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.field-hint {
+  margin-top: 0.85rem;
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.next-btn {
+  background: var(--accent);
+  color: #fff;
+  padding: 0.85rem 1.72rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.16rem;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(255,152,0,0.11);
+  letter-spacing: 0.3px;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.next-btn:disabled {
+  background: #e8cc92;
+  color: #fffde9;
+  cursor: default;
+}
