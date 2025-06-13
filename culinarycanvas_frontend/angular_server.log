@@ -16,66 +16,6 @@ styles.css           | styles                     | 633 bytes |
                      | Initial total              | 115.69 kB
 
 Lazy chunk files     | Names                      |  Raw size
-chunk-SGIKYEQK.js    | ai-recipe-component        |  11.62 kB | 
-chunk-DCHYUGHU.js    | ingredient-input-component |   9.90 kB | 
-chunk-647JJD3I.js    | recipe-manage-component    |   6.28 kB | 
-
-
-Server bundles      
-Initial chunk files  | Names                      |  Raw size
-polyfills.server.mjs | polyfills.server           | 572.91 kB | 
-chunk-I7QUURJ3.mjs   | -                          |  23.99 kB | 
-server.mjs           | server                     |   1.42 kB | 
-chunk-4LWRAYML.mjs   | -                          |   1.35 kB | 
-main.server.mjs      | main.server                | 831 bytes | 
-
-Lazy chunk files     | Names                      |  Raw size
-chunk-ZRMODFP5.mjs   | ai-recipe-component        |  11.65 kB | 
-chunk-AAYKFRBV.mjs   | ingredient-input-component |   9.94 kB | 
-chunk-S6UELBOE.mjs   | recipe-manage-component    |   6.31 kB | 
-
-Application bundle generation complete. [2.891 seconds]
-
-Watch mode enabled. Watching for file changes...
-NOTE: Raw file sizes do not reflect development server per-request transformations.
-11:51:04 AM [vite] (ssr) Re-optimizing dependencies because vite config has changed
-11:51:04 AM [vite] (client) Re-optimizing dependencies because vite config has changed
-  ➜  Local:   http://localhost:3000/
-  ➜  Network: http://172.17.0.2:3000/
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names               |  Raw size
-main.js             | main                |  23.55 kB | 
-
-Lazy chunk files    | Names               |  Raw size
-chunk-2VAGG6AS.js   | ai-recipe-component |  11.64 kB | 
-
-
-Server bundles     
-Initial chunk files | Names               |  Raw size
-chunk-YDP2ANAI.mjs  | -                   |  23.99 kB | 
-server.mjs          | server              |   1.42 kB | 
-main.server.mjs     | main.server         | 831 bytes | 
-
-Lazy chunk files    | Names               |  Raw size
-chunk-HJXIHOWI.mjs  | ai-recipe-component |  11.67 kB | 
-
-Application bundle generation complete. [0.896 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
-Initial chunk files  | Names                      |  Raw size
-polyfills.js         | polyfills                  |  90.20 kB | 
-main.js              | main                       |  23.55 kB | 
-chunk-VTZCDIGA.js    | -                          |   1.31 kB | 
-styles.css           | styles                     | 633 bytes | 
-
-                     | Initial total              | 115.69 kB
-
-Lazy chunk files     | Names                      |  Raw size
 chunk-2VAGG6AS.js    | ai-recipe-component        |  11.64 kB | 
 chunk-DCHYUGHU.js    | ingredient-input-component |   9.90 kB | 
 chunk-647JJD3I.js    | recipe-manage-component    |   6.28 kB | 
@@ -94,5 +34,9 @@ chunk-HJXIHOWI.mjs   | ai-recipe-component        |  11.67 kB |
 chunk-AAYKFRBV.mjs   | ingredient-input-component |   9.94 kB | 
 chunk-S6UELBOE.mjs   | recipe-manage-component    |   6.31 kB | 
 
-Application bundle generation complete. [0.270 seconds]
+Application bundle generation complete. [3.103 seconds]
 
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
