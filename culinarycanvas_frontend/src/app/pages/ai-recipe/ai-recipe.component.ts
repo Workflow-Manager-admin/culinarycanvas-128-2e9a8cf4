@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
 const COHERE_API_URL = "https://api.cohere.ai/v1/generate";
 const COHERE_MODEL = "command";
 // WARNING: Insert your API KEY here for local dev, but do NOT expose publicly in demos!
-const COHERE_API_KEY = "YOUR_COHERE_API_KEY_HERE"; // User must supply this!
+const COHERE_API_KEY = "xyV9r163fmM8ieMhIFAUbmymr6DakgKJ8wj520lv"; // User must supply this!
 
 @Component({
   selector: 'cc-ai-recipe',

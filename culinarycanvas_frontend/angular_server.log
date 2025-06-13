@@ -7,158 +7,92 @@ The "disableHostCheck" option will not be used because it is not supported by th
 ❯ Building...
 ✔ Building...
 Browser bundles     
-Initial chunk files  | Names            |  Raw size
-polyfills.js         | polyfills        |  90.20 kB | 
-main.js              | main             |  22.59 kB | 
-styles.css           | styles           |  95 bytes | 
+Initial chunk files  | Names                      |  Raw size
+polyfills.js         | polyfills                  |  90.20 kB | 
+main.js              | main                       |  23.55 kB | 
+chunk-VTZCDIGA.js    | -                          |   1.31 kB | 
+styles.css           | styles                     | 633 bytes | 
 
-                     | Initial total    | 112.88 kB
+                     | Initial total              | 115.69 kB
+
+Lazy chunk files     | Names                      |  Raw size
+chunk-SGIKYEQK.js    | ai-recipe-component        |  11.62 kB | 
+chunk-DCHYUGHU.js    | ingredient-input-component |   9.90 kB | 
+chunk-647JJD3I.js    | recipe-manage-component    |   6.28 kB | 
 
 
 Server bundles      
-Initial chunk files  | Names            |  Raw size
-polyfills.server.mjs | polyfills.server | 572.91 kB | 
-chunk-6XEG6CM6.mjs   | -                |  23.02 kB | 
-server.mjs           | server           |   1.39 kB | 
-main.server.mjs      | main.server      | 800 bytes | 
+Initial chunk files  | Names                      |  Raw size
+polyfills.server.mjs | polyfills.server           | 572.91 kB | 
+chunk-I7QUURJ3.mjs   | -                          |  23.99 kB | 
+server.mjs           | server                     |   1.42 kB | 
+chunk-4LWRAYML.mjs   | -                          |   1.35 kB | 
+main.server.mjs      | main.server                | 831 bytes | 
 
-Application bundle generation complete. [2.602 seconds]
+Lazy chunk files     | Names                      |  Raw size
+chunk-ZRMODFP5.mjs   | ai-recipe-component        |  11.65 kB | 
+chunk-AAYKFRBV.mjs   | ingredient-input-component |   9.94 kB | 
+chunk-S6UELBOE.mjs   | recipe-manage-component    |   6.31 kB | 
+
+Application bundle generation complete. [2.891 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
+11:51:04 AM [vite] (ssr) Re-optimizing dependencies because vite config has changed
+11:51:04 AM [vite] (client) Re-optimizing dependencies because vite config has changed
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.493 seconds]
+Browser bundles    
+Initial chunk files | Names               |  Raw size
+main.js             | main                |  23.55 kB | 
 
-✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
-
-    src/app/app.routes.ts:9:36:
-      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2307: Cannot find module './pages/ingredient-input/ingredient-input.component' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:11:32:
-      11 │ ...=> import("./pages/ingredient-input/ingredient-input.component"...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lazy chunk files    | Names               |  Raw size
+chunk-2VAGG6AS.js   | ai-recipe-component |  11.64 kB | 
 
 
-✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
+Server bundles     
+Initial chunk files | Names               |  Raw size
+chunk-YDP2ANAI.mjs  | -                   |  23.99 kB | 
+server.mjs          | server              |   1.42 kB | 
+main.server.mjs     | main.server         | 831 bytes | 
 
-    src/app/app.routes.ts:14:36:
-      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
-         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lazy chunk files    | Names               |  Raw size
+chunk-HJXIHOWI.mjs  | ai-recipe-component |  11.67 kB | 
 
+Application bundle generation complete. [0.896 seconds]
 
-✘ [ERROR] TS2307: Cannot find module './pages/ai-recipe/ai-recipe.component' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:16:32:
-      16 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
-         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
-
-    src/app/app.routes.ts:19:36:
-      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2307: Cannot find module './pages/recipe-manage/recipe-manage.component' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:21:32:
-      21 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
-
-    src/app/app.routes.ts:9:36:
-      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
-
-    src/app/app.routes.ts:14:36:
-      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
-         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
-
-    src/app/app.routes.ts:19:36:
-      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+Page reload sent to client(s).
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.099 seconds]
+Browser bundles     
+Initial chunk files  | Names                      |  Raw size
+polyfills.js         | polyfills                  |  90.20 kB | 
+main.js              | main                       |  23.55 kB | 
+chunk-VTZCDIGA.js    | -                          |   1.31 kB | 
+styles.css           | styles                     | 633 bytes | 
 
-✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
+                     | Initial total              | 115.69 kB
 
-    src/app/app.routes.ts:9:36:
-      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2307: Cannot find module './pages/ingredient-input/ingredient-input.component' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:11:32:
-      11 │ ...=> import("./pages/ingredient-input/ingredient-input.component"...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
-
-    src/app/app.routes.ts:14:36:
-      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
-         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lazy chunk files     | Names                      |  Raw size
+chunk-2VAGG6AS.js    | ai-recipe-component        |  11.64 kB | 
+chunk-DCHYUGHU.js    | ingredient-input-component |   9.90 kB | 
+chunk-647JJD3I.js    | recipe-manage-component    |   6.28 kB | 
 
 
-✘ [ERROR] TS2307: Cannot find module './pages/ai-recipe/ai-recipe.component' or its corresponding type declarations. [plugin angular-compiler]
+Server bundles      
+Initial chunk files  | Names                      |  Raw size
+polyfills.server.mjs | polyfills.server           | 572.91 kB | 
+chunk-YDP2ANAI.mjs   | -                          |  23.99 kB | 
+server.mjs           | server                     |   1.42 kB | 
+chunk-4LWRAYML.mjs   | -                          |   1.35 kB | 
+main.server.mjs      | main.server                | 831 bytes | 
 
-    src/app/app.routes.ts:16:32:
-      16 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
-         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lazy chunk files     | Names                      |  Raw size
+chunk-HJXIHOWI.mjs   | ai-recipe-component        |  11.67 kB | 
+chunk-AAYKFRBV.mjs   | ingredient-input-component |   9.94 kB | 
+chunk-S6UELBOE.mjs   | recipe-manage-component    |   6.31 kB | 
 
-
-✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
-
-    src/app/app.routes.ts:19:36:
-      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2307: Cannot find module './pages/recipe-manage/recipe-manage.component' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:21:32:
-      21 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/ingredient-input/ingredient-input.component"
-
-    src/app/app.routes.ts:9:36:
-      9 │ ... => import("./pages/ingredient-input/ingredient-input.component"...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/ai-recipe/ai-recipe.component"
-
-    src/app/app.routes.ts:14:36:
-      14 │ ...) => import("./pages/ai-recipe/ai-recipe.component").then(m => ...
-         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./pages/recipe-manage/recipe-manage.component"
-
-    src/app/app.routes.ts:19:36:
-      19 │ ...=> import("./pages/recipe-manage/recipe-manage.component").then...
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Application bundle generation complete. [0.270 seconds]
 
